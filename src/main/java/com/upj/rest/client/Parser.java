@@ -39,8 +39,8 @@ public class Parser {
             connection.setRequestProperty("accept", "application/json");
 
 // Specify your credentials
-            connection.setRequestProperty("Sovren-AccountId", "55433887");
-            connection.setRequestProperty("Sovren-ServiceKey", "6NzvycrJQr2iqOma7fwoikEDMcD2NBRRDQniRBvE");
+            connection.setRequestProperty("Sovren-AccountId", "55433887101");
+            connection.setRequestProperty("Sovren-ServiceKey", "6NzvycrJQr2iqOma7fwoikEDMcD2NBRRDQniRBvEVK");
 
             // Construct payload in JSON-format
 // (This is a very primitive way to do so, as not to have any external dependencies
