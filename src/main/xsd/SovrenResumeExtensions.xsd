@@ -17,7 +17,7 @@ for any purpose without prior written permission of Sovren Group, Inc.
     <xsd:documentation>This is the schema for Sovren Resume Parser version 8.1</xsd:documentation>
   </xsd:annotation>
 
-  <xsd:import namespace="http://ns.hr-xml.org/2006-02-28" schemaLocation="resume.xsd"/>
+  <xsd:import namespace="http://ns.hr-xml.org/2006-02-28" schemaLocation="ResumeExternal.xsd"/>
 
   <xsd:simpleType name="CurrencyType">
     <xsd:restriction base="xsd:string">

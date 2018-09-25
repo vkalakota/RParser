@@ -9,7 +9,9 @@ Terms of license can be found in license.txt.
 		<xsd:documentation>After merging all includes, the result is passed through a stylesheet which deletes any duplicative global components as well as any unused global types.  Finally, it sorts by component name.</xsd:documentation>
 	</xsd:annotation>
 	<xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <!--<xsd:import namespace="http://sovren.com/hr-xml/2006-02-28" schemaLocation="SovrenResumeExtensions.xsd"/>-->
     <xsd:import namespace="http://sovren.com/hr-xml/2006-02-28" schemaLocation="SovrenResumeExtensions.xsd"/>
+
 	<xsd:simpleType name="AcademicCreditCodeType">
 		<xsd:restriction base="xsd:string">
 			<xsd:enumeration value="A">
