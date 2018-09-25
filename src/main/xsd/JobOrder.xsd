@@ -1,0 +1,283 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+    <xsd:annotation>
+        <xsd:documentation>
+            This schema describes the Sovren Job Order XML that is output by Sovren Job Order Parser.
+        </xsd:documentation>
+    </xsd:annotation>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:complexType name="JobDate">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="value" type="xsd:string" use="optional"/>
+                <xsd:attribute name="inferred" type="xsd:boolean" use="optional"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:simpleType name="CurrencyType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Z][A-Z][A-Z]"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ManagementLevelType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="none"/>
+            <xsd:enumeration value="low"/>
+            <xsd:enumeration value="mid"/>
+            <xsd:enumeration value="high"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:complexType name="JobRate">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="amount" type="xsd:decimal" use="optional"/>
+                <xsd:attribute name="currency" type="CurrencyType" use="optional"/>
+                <xsd:attribute name="unit" use="optional">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="hour"/>
+                            <xsd:enumeration value="day"/>
+                            <xsd:enumeration value="week"/>
+                            <xsd:enumeration value="month"/>
+                            <xsd:enumeration value="year"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:simpleType name="LatitudeType">
+        <xsd:restriction base="xsd:decimal">
+            <xsd:minInclusive value="-90.0"/>
+            <xsd:maxInclusive value="90.0"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="LongitudeType">
+        <xsd:restriction base="xsd:decimal">
+            <xsd:minInclusive value="-180.0"/>
+            <xsd:maxInclusive value="180.0"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="SovrenData">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="JobOrderId" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="DocumentLanguage" minOccurs="0">
+                    <xsd:annotation>
+                        <xsd:documentation>ISO 639-1 two character code (lower-case).</xsd:documentation>
+                    </xsd:annotation>
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="[a-z][a-z]"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="CurrentJobIsMgmt" type="xsd:boolean" minOccurs="0"/>
+                <xsd:element name="HighestManagementScore" type="xsd:int" minOccurs="0"/>
+                <xsd:element name="ManagementLevel" type="ManagementLevelType" minOccurs="0"/>
+                <xsd:element name="ExecutiveType" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="JobTitles">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="MainJobTitle" type="xsd:string" minOccurs="0"/>
+                            <xsd:element name="JobTitle" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="EmployerNames" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="MainEmployerName" type="xsd:string" minOccurs="0"/>
+                            <xsd:element name="EmployerName" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="SchoolNames" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="SchoolName" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="CertificationsAndLicenses" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="CertificationOrLicense" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="LanguageCodes" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="LanguageCode" minOccurs="0" maxOccurs="unbounded">
+                                <xsd:annotation>
+                                    <xsd:documentation>ISO 639-1 two character code (lower-case).</xsd:documentation>
+                                </xsd:annotation>
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:pattern value="[a-z][a-z]"/>
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="CurrentLocation" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Municipality" type="xsd:string" minOccurs="0"/>
+                            <xsd:element name="Region" type="xsd:string" minOccurs="0"/>
+                            <xsd:element name="PostalCode" type="xsd:string" minOccurs="0"/>
+                            <xsd:element name="CountryCode" minOccurs="0">
+                                <xsd:annotation>
+                                    <xsd:documentation>ISO 3166 two character code (upper-case).</xsd:documentation>
+                                </xsd:annotation>
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:pattern value="[A-Z][A-Z]"/>
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="Latitude" minOccurs="0">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="LatitudeType">
+                                            <xsd:attribute name="inferred" type="xsd:boolean" use="optional"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Longitude" minOccurs="0">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="LongitudeType">
+                                            <xsd:attribute name="inferred" type="xsd:boolean" use="optional"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="TermsOfInterest" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="TermOfInterest" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="SkillsTaxonomyOutput" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="TaxonomyRoot" minOccurs="0" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="Taxonomy" minOccurs="0" maxOccurs="unbounded">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="Subtaxonomy" minOccurs="0" maxOccurs="unbounded">
+                                                        <xsd:complexType>
+                                                            <xsd:sequence>
+                                                                <xsd:element name="Skill" minOccurs="0" maxOccurs="unbounded">
+                                                                    <xsd:complexType>
+                                                                        <xsd:sequence>
+                                                                            <xsd:element name="ChildSkill" minOccurs="0" maxOccurs="unbounded">
+                                                                                <xsd:complexType>
+                                                                                    <xsd:attribute name="name" type="xsd:string"/>
+                                                                                    <xsd:attribute name="id" type="xsd:string"/>
+                                                                                    <xsd:attribute name="existsInText" type="xsd:boolean"/>
+                                                                                    <xsd:attribute name="required" type="xsd:boolean"/>
+                                                                                </xsd:complexType>
+                                                                            </xsd:element>
+                                                                        </xsd:sequence>
+                                                                        <xsd:attribute name="name" type="xsd:string"/>
+                                                                        <xsd:attribute name="id" type="xsd:string"/>
+                                                                        <xsd:attribute name="existsInText" type="xsd:boolean"/>
+                                                                        <xsd:attribute name="required" type="xsd:boolean"/>
+                                                                    </xsd:complexType>
+                                                                </xsd:element>
+                                                            </xsd:sequence>
+                                                            <xsd:attribute name="name" type="xsd:string"/>
+                                                            <xsd:attribute name="id" type="xsd:string"/>
+                                                            <xsd:attribute name="percentOfOverall" type="xsd:double"/>
+                                                            <xsd:attribute name="percentOfParentTaxonomy" type="xsd:double"/>
+                                                        </xsd:complexType>
+                                                    </xsd:element>
+                                                </xsd:sequence>
+                                                <xsd:attribute name="name" type="xsd:string"/>
+                                                <xsd:attribute name="id" type="xsd:string"/>
+                                                <xsd:attribute name="percentOfOverall" type="xsd:double"/>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="name" type="xsd:string"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="Education" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Degree" minOccurs="0" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="DegreeType" type="xsd:string"/>
+                                        <xsd:element name="DegreeName" type="xsd:string" minOccurs="0"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="MinimumYears" type="xsd:int" minOccurs="0"/>
+                <xsd:element name="MaximumYears" type="xsd:int" minOccurs="0"/>
+                <xsd:element name="MinimumYearsManagement" type="xsd:int" minOccurs="0"/>
+                <xsd:element name="MaximumYearsManagement" type="xsd:int" minOccurs="0"/>
+                <xsd:element name="RequiredDegree" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="StartDate" type="JobDate" minOccurs="0"/>
+                <xsd:element name="EndDate" type="JobDate" minOccurs="0"/>
+                <xsd:element name="BillRate" type="JobRate" minOccurs="0"/>
+                <xsd:element name="PayRate" type="JobRate" minOccurs="0"/>
+                <xsd:element name="JobDescription" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="JobRequirements" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="TypeOfSource" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="SourceText" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="SearchHints" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="Owners" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Owner" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="Ids" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Id" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="RevisionDate" minOccurs="0">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:date">
+                            <xsd:pattern value="\d\d\d\d-\d\d-\d\d"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="ParserConfigurationString" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="TimedOut" minOccurs="0">
+                    <xsd:complexType>
+                        <xsd:simpleContent>
+                            <xsd:extension base="xsd:int">
+                                <xsd:attribute name="type" type="xsd:string" use="required"/>
+                                <xsd:attribute name="marker" type="xsd:string" use="optional"/>
+                            </xsd:extension>
+                        </xsd:simpleContent>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="DigitalSignature" type="xsd:string" minOccurs="0"/>
+            </xsd:sequence>
+            <xsd:attribute ref="xml:lang" use="optional"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

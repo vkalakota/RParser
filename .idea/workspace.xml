@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fdceba9-26a9-41bd-b4db-b6388bc1f279" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/xsd/JobOrder.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upj/rest/client/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upj/rest/client/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/xsd/ResumeExternal.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xsd/ResumeExternal.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/xsd/SovrenResumeExtensions.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xsd/SovrenResumeExtensions.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/upj/rest/client/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upj/rest/client/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/upj/rest/client/Test.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,29 +55,32 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="15" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="40" />
+          <entry key="java" value="43" />
           <entry key="xsd" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="xsd" value="1" />
+          <entry key="java" value="15" />
+          <entry key="xsd" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="43" />
           <entry key="XML" value="106" />
         </counts>
       </usages-collector>
@@ -88,7 +88,43 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/xsd/JobOrder.xsd">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/sovren/Resume.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,6 +146,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/upj/rest/client/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/xsd/ResumeExternal.xsd" />
         <option value="$PROJECT_DIR$/src/main/xsd/SovrenResumeExtensions.xsd" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/model/sovren/PositionOrgIndustryType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/xsd/JobOrder.xsd" />
       </list>
     </option>
   </component>
@@ -129,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,6 +228,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -207,6 +246,72 @@
               <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sovren" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -238,12 +343,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\develop\UPJ\RParser\src\main\xsd" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="C:\develop\UPJ\RParser\src\main\resources" />
       <recent name="C:\develop\UPJ\RParser\src\main\java\com\upj\rest\client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\develop\UPJ\RParser\src\main\xsd" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,15 +412,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Learn" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20028612" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24320458" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32340425" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -366,22 +473,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/upj/rest/client/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/sovren/NonXMLResumeType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/sovren/SpeakingTypeType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sovren/hr_xml/_2006_02_28/LocationType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/sovren/BasicReferenceType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/sovren/EmployerOrgTypes.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/sovren/RoleType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/sovren/JobLevelInfoType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sovren/hr_xml/_2006_02_28/IndustryType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/sovren/ContactMethodType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/sovren/PositionOrgIndustryType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sovren/hr_xml/_2006_02_28/ResumeUserArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="418" column="13" selection-start-line="418" selection-start-column="13" selection-end-line="418" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sovren/hr_xml/_2006_02_28/MoneyType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/sovren/Resume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xsd/JobOrder.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
