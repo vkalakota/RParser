@@ -188,6 +188,17 @@ public class Resume {
         this.userArea = value;
     }
 
+    @Override
+    public String toString() {
+        return "Resume{" +
+                "resumeId=" + resumeId +
+                ", distributionGuidelines=" + distributionGuidelines +
+                ", structuredXMLResume=" + structuredXMLResume +
+                ", nonXMLResume=" + nonXMLResume +
+                ", userArea=" + userArea +
+                '}';
+    }
+
 
     /**
      * <p>Java class for anonymous complex type.

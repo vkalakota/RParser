@@ -28,7 +28,7 @@ public class SovrenRestClient {
                 final String uri = "https://rest.resumeparsing.com/v9/parser/resume";
 
                 // Specify filename and compute path
-                Path filePath = Paths.get("/Users/vasanth/develop/RParser/src/main/resources/Sample.doc");
+                Path filePath = Paths.get("/Users/vasanth/develop/RParser/src/main/resources/Sample1.doc");
 
 
                 // Open file, encode contents to base64, then decode to UTF-8
@@ -76,7 +76,8 @@ public class SovrenRestClient {
 
                 HttpEntity<String> request = new HttpEntity<String>(payload, params);
 
-                Resume resumeResponse = restTemplate.postForObject(uri, request, Resume.class);
+                //Resume resumeResponse = restTemplate.postForObject(uri, request, Resume.class);
+                String resumeResponse = restTemplate.postForObject(uri, request, String.class);
 
 
                 //requestHeaders.setAuthorization(httpAuthentication);
@@ -91,9 +92,10 @@ public class SovrenRestClient {
 
 //            Resume resumeResponse = restTemplate.postForObject(uri, params, Resume.class);
 
-                System.out.println(resumeResponse);
-                System.out.println("REsume " + resumeResponse.getResumeId());
-                System.out.println("REsume " + resumeResponse.getUserArea());
+                //System.out.println(resumeResponse);
+                System.out.println("tostirng "+resumeResponse.toString());
+                //System.out.println("REsume " + resumeResponse.getResumeId());
+                //System.out.println("REsume " + resumeResponse.getUserArea());
 
             } catch (Exception e) {
                 e.printStackTrace();
