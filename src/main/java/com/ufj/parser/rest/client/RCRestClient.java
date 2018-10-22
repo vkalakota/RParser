@@ -13,9 +13,9 @@ public class RCRestClient {
 
         ConvertToBase64 base = new ConvertToBase64();
 
-        String fileData = base.Convert("/Users/vasanth/develop/RParser/src/main/resources/Sample1.doc");
-        String fileName = "Sample1.doc";
-        String userKey = "";
+        String fileData = base.Convert("/Users/vasanth/develop/RParser/src/main/resources/HAB.doc");
+        String fileName = "HAB.doc";
+        String userKey = "KDTNP7HID3I";
         String version ="7.0.0";
         String subUserId="Upfront Jobs";
         //System.out.println("file data:: "+fileData);
