@@ -1,7 +1,7 @@
-package org.lm.edm.api.office.config;
+package com.ufj.parser.config;
 
+import com.ufj.parser.util.Environment;
 import org.apache.log4j.Logger;
-import org.lm.edm.api.office.util.OfficeProfileEnvironment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -11,19 +11,16 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import javax.sql.DataSource;
 
-/**
- * Data source configuration for EDM Office Profile Service
- * Created by vkalakotahe7160 on 10/17/2018
- */
+
 @Configuration
-public class EDMDataSourceConfig {
+public class DataSourceConfig {
 
     @Autowired
-    private OfficeProfileEnvironment environment;
-    private static final Logger logger = Logger.getLogger(EDMDataSourceConfig.class.getName());
+    private Environment environment;
+    private static final Logger logger = Logger.getLogger(DataSourceConfig.class.getName());
 
-    @Bean(name = "dsEDM")
-    public DataSource edmDataSource() {
+    @Bean(name = "dsUFJ")
+    public DataSource UFJDataSource() {
 
         DriverManagerDataSource edm = new DriverManagerDataSource();
         edm.setUrl(environment.getPropertyValue("spring.ds.edm.url"));
@@ -36,9 +33,9 @@ public class EDMDataSourceConfig {
         return edm;
     }
 
-    @Bean(name = "jdbcEDM")
+    @Bean(name = "jdbcUFJ")
     @Autowired
-    public JdbcTemplate edmJdbcTemplate(@Qualifier("dsEDM") DataSource datasource) {
+    public JdbcTemplate edmJdbcTemplate(@Qualifier("dsUFJ") DataSource datasource) {
         JdbcTemplate jdbcTemplate = new JdbcTemplate(datasource);
         jdbcTemplate.setResultsMapCaseInsensitive(true);
         return jdbcTemplate;

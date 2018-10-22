@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
-@Configuration
+@Configuration(value = "myEnviroment")
 @PropertySource(value = "classpath:application.properties")
 public class Environment {
 

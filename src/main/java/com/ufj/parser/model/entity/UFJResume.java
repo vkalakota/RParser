@@ -1,6 +1,6 @@
 package com.ufj.parser.model.entity;
 
-public class resume {
+public class UFJResume {
     int resumeId;
     String resumeFileName = "";
     String parsingDate = "";
@@ -786,5 +786,98 @@ public class resume {
 
     public void setJsonOutput(String jsonOutput) {
         this.jsonOutput = jsonOutput;
+    }
+
+    @Override
+    public String toString() {
+        return "UFJResume{" +
+                "resumeId=" + resumeId +
+                ", resumeFileName='" + resumeFileName + '\'' +
+                ", parsingDate='" + parsingDate + '\'' +
+                ", titleName='" + titleName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", middlename='" + middlename + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", dateOfBirth='" + dateOfBirth + '\'' +
+                ", gender='" + gender + '\'' +
+                ", maritalStatus='" + maritalStatus + '\'' +
+                ", nationality='" + nationality + '\'' +
+                ", languageKnown='" + languageKnown + '\'' +
+                ", uniqueID='" + uniqueID + '\'' +
+                ", licenseNo='" + licenseNo + '\'' +
+                ", passportNo='" + passportNo + '\'' +
+                ", panNo='" + panNo + '\'' +
+                ", visaStatus='" + visaStatus + '\'' +
+                ", email='" + email + '\'' +
+                ", alternateEmail='" + alternateEmail + '\'' +
+                ", phone='" + phone + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", faxNo='" + faxNo + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", country='" + country + '\'' +
+                ", zipCode='" + zipCode + '\'' +
+                ", permanentAddress='" + permanentAddress + '\'' +
+                ", permanentCity='" + permanentCity + '\'' +
+                ", permanentState='" + permanentState + '\'' +
+                ", permanentCountry='" + permanentCountry + '\'' +
+                ", permanentZipCode='" + permanentZipCode + '\'' +
+                ", category='" + category + '\'' +
+                ", subCategory='" + subCategory + '\'' +
+                ", currentSalary='" + currentSalary + '\'' +
+                ", expectedSalary='" + expectedSalary + '\'' +
+                ", qualification='" + qualification + '\'' +
+                ", skills='" + skills + '\'' +
+                ", experience='" + experience + '\'' +
+                ", currentEmployer='" + currentEmployer + '\'' +
+                ", jobProfile='" + jobProfile + '\'' +
+                ", totalExperienceInYear='" + totalExperienceInYear + '\'' +
+                ", totalExperienceInMonths='" + totalExperienceInMonths + '\'' +
+                ", totalExperienceRange='" + totalExperienceRange + '\'' +
+                ", gapPeriod='" + gapPeriod + '\'' +
+                ", numberofJobChanged='" + numberofJobChanged + '\'' +
+                ", averageStay='" + averageStay + '\'' +
+                ", availability='" + availability + '\'' +
+                ", hobbies='" + hobbies + '\'' +
+                ", objectives='" + objectives + '\'' +
+                ", achievements='" + achievements + '\'' +
+                ", c_references='" + c_references + '\'' +
+                ", preferredLocation='" + preferredLocation + '\'' +
+                ", certification='" + certification + '\'' +
+                ", customFields='" + customFields + '\'' +
+                ", emailFrom='" + emailFrom + '\'' +
+                ", emailTo='" + emailTo + '\'' +
+                ", emailSubject='" + emailSubject + '\'' +
+                ", emailBody='" + emailBody + '\'' +
+                ", emailCC='" + emailCC + '\'' +
+                ", emailReplyTo='" + emailReplyTo + '\'' +
+                ", emailSignature='" + emailSignature + '\'' +
+                ", detailResume='" + detailResume + '\'' +
+                ", htmlresume='" + htmlresume + '\'' +
+                ", candidateImageFormat='" + candidateImageFormat + '\'' +
+                ", candidateImageData='" + candidateImageData + '\'' +
+                ", behaviorSkills='" + behaviorSkills + '\'' +
+                ", softSkills='" + softSkills + '\'' +
+                ", formattedPhoneNo='" + formattedPhoneNo + '\'' +
+                ", formattedMobileNo='" + formattedMobileNo + '\'' +
+                ", formattedAddress='" + formattedAddress + '\'' +
+                ", longestStay='" + longestStay + '\'' +
+                ", currentLocation='" + currentLocation + '\'' +
+                ", coverletter='" + coverletter + '\'' +
+                ", publication='" + publication + '\'' +
+                ", templateData='" + templateData + '\'' +
+                ", templateFileName='" + templateFileName + '\'' +
+                ", availabilty='" + availabilty + '\'' +
+                ", summery='" + summery + '\'' +
+                ", socialVerificationScore='" + socialVerificationScore + '\'' +
+                ", subUserId='" + subUserId + '\'' +
+                ", registeredEmailId='" + registeredEmailId + '\'' +
+                ", base64Data='" + base64Data + '\'' +
+                ", fileName='" + fileName + '\'' +
+                ", fullName='" + fullName + '\'' +
+                ", resumeLanguage='" + resumeLanguage + '\'' +
+                ", jsonOutput='" + jsonOutput + '\'' +
+                '}';
     }
 }
