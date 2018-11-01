@@ -28,8 +28,9 @@ public class SovrenRestClient {
                 final String uri = "https://rest.resumeparsing.com/v9/parser/resume";
 
                 // Specify filename and compute path
-                Path filePath = Paths.get("/Users/vasanth/develop/RParser/src/main/resources/Sample1.doc");
-
+                Path filePath = Paths.get("/Users/vasanth/develop/RParser/src/main/resources/HAB_S1.doc");
+                        ///Users/vasanth/develop/RParser/src/main/resources/Sample1.doc");
+///
 
                 // Open file, encode contents to base64, then decode to UTF-8
                 byte[] encoded = new byte[0];
@@ -38,13 +39,13 @@ public class SovrenRestClient {
 
                 String base64Str = new String(encoded, "UTF-8");
 
+//            params.put("accept", "application/json");
+//            params.put("Sovren-AccountId", "55433887");11
+//            params.put("Sovren-ServiceKey", "6NzvycrJQr2iqOma7fwoikEDMcD2NBww2221#w453RRDQniRBvE");
+
 
 //            Map<String, String> params = new HashMap<String, String>();
 //            params.put("Content-Type", "application/json");
-//            params.put("accept", "application/json");
-//            params.put("Sovren-AccountId", "55433887");
-//            params.put("Sovren-ServiceKey", "6NzvycrJQr2iqOma7fwoikEDMcD2NBRRDQniRBvE");
-
 
                 // Construct payload in JSON-format
 // (This is a very primitive way to do so, as not to have any external dependencies

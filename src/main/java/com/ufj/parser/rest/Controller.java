@@ -21,7 +21,7 @@ public class Controller {
 //    @Autowired
 //    Environment sysEnvironment;
 
-    @RequestMapping(value = "invoke", method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = "/invoke", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     public APIResponse execute() {
         System.out.println(" in controller");
