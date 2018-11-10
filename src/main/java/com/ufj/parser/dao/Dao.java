@@ -10,4 +10,6 @@ public interface Dao {
 
     public void save(UFJResume resume);
 
+    public void save(String resume, String vendor);
+
 }

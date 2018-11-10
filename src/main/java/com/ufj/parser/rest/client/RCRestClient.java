@@ -13,8 +13,10 @@ public class RCRestClient {
 
         ConvertToBase64 base = new ConvertToBase64();
 
-        String fileData = base.Convert("/Users/vasanth/develop/RParser/src/main/resources/HAB.doc");
-        String fileName = "HAB.doc";
+        ///Users/vasanth/develop/RParser/src/main/resources/HAB_S1.doc
+        String fileData = base.Convert("/Users/vasanth/develop/RParser/src/main/resources/HAB_S1.doc");
+                //"///Users/vasanth/develop/RParser/src/main/resources/HAB.doc");
+        String fileName = "HAB_S1.doc";
         String userKey = "KDTNP7HID3I";
         String version ="7.0.0";
         String subUserId="Upfront Jobs";

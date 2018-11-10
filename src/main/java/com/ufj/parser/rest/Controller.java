@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/ufj/")
+@RequestMapping("/ufj")
 public class Controller {
 
     private static final Logger logger = Logger.getLogger(Controller.class.getName());

@@ -3,10 +3,221 @@
   <component name="ChangeListManager">
     <list default="true" id="6fdceba9-26a9-41bd-b4db-b6388bc1f279" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/HAB.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HAB_Orig.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HAB_S1.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HAB_S1.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HAB_S2.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JH.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JP.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sample.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sample1.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/BestFitTaxonomyType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/BestFitTaxonomyType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/BulletsType$Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/BulletsType$Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/CultureType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/CultureType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/CurrentManagementLevelEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/CurrentManagementLevelEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/CurrentManagementLevelType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/CurrentManagementLevelType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/DateOfBirthType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/DateOfBirthType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/DegreeUserArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/DegreeUserArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/EmployerOrgUserArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/EmployerOrgUserArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ExecutiveTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ExecutiveTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ExecutiveTypeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ExecutiveTypeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/GenderEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/GenderEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/GenderType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/GenderType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/IndustryType$Code.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/IndustryType$Code.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/LocationType$Latitude.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/LocationType$Latitude.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/LocationType$Longitude.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/LocationType$Longitude.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/LocationType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/LocationType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/MaritalStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/MaritalStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/MaritalStatusType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/MaritalStatusType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/MessagingAddressType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/MessagingAddressType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/MoneyType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/MoneyType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/NationalIdentityType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/NationalIdentityType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/NationalityType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/NationalityType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/PositionHistoryUserArea$CompanyNameProbabilityInterpretation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/PositionHistoryUserArea$CompanyNameProbabilityInterpretation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/PositionHistoryUserArea$PositionTitleProbabilityInterpretation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/PositionHistoryUserArea$PositionTitleProbabilityInterpretation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/PositionHistoryUserArea$Subtitles$Subtitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/PositionHistoryUserArea$Subtitles$Subtitle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/PositionHistoryUserArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/PositionHistoryUserArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$CustomData$CustomDataMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$CustomData$CustomDataMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary$SkillsTaxonomyOutput$TaxonomyRoot$Taxonomy$Subtaxonomy$Skill$ChildSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary$SkillsTaxonomyOutput$TaxonomyRoot$Taxonomy$Subtaxonomy$Skill$ChildSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary$SkillsTaxonomyOutput$TaxonomyRoot$Taxonomy$Subtaxonomy$Skill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary$SkillsTaxonomyOutput$TaxonomyRoot$Taxonomy$Subtaxonomy$Skill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary$SkillsTaxonomyOutput$TaxonomyRoot$Taxonomy$Subtaxonomy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary$SkillsTaxonomyOutput$TaxonomyRoot$Taxonomy$Subtaxonomy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary$SkillsTaxonomyOutput$TaxonomyRoot$Taxonomy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary$SkillsTaxonomyOutput$TaxonomyRoot$Taxonomy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary$SkillsTaxonomyOutput$TaxonomyRoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary$SkillsTaxonomyOutput$TaxonomyRoot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ExperienceSummary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$Hobbies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$Hobbies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$PersonalInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$PersonalInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ReservedData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ReservedData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ResumeQuality$Assessments$Assessment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ResumeQuality$Assessments$Assessment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ResumeQuality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$ResumeQuality.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$Sections$Section.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$Sections$Section.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$TimedOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$TimedOut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$TrainingHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea$TrainingHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/ResumeUserArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/SchoolOrInstitutionTypeUserArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/SchoolOrInstitutionTypeUserArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/TrainingHistoryTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/TrainingHistoryTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/TrainingHistoryTypeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/TrainingHistoryTypeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/TrainingType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/TrainingType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/YesNoType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/YesNoType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/config/DataSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/config/DataSourceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/dao/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/dao/Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/dao/impl/DaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/dao/impl/DaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/APIResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/APIResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/entity/UFJResume.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/entity/UFJResume.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/rchilli/ResumeParseFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/rchilli/ResumeParseFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AcademicCreditCodeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AcademicCreditCodeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AchievementType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AchievementType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AdditionalItemType$EffectiveDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AdditionalItemType$EffectiveDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AdditionalItemType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AdditionalItemType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ArticleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ArticleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/Association.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/Association.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AssociationType$Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AssociationType$Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AssociationType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AssociationType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AssociationTypeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/AssociationTypeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/BasicBibliographicRecordType$Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/BasicBibliographicRecordType$Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/BasicBibliographicRecordType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/BasicBibliographicRecordType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/BasicReferenceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/BasicReferenceType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/BasicStatusType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/BasicStatusType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/BookType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/BookType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType$CompetencyEvidence$EvidenceId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType$CompetencyEvidence$EvidenceId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType$CompetencyEvidence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType$CompetencyEvidence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType$CompetencyId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType$CompetencyId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType$CompetencyWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType$CompetencyWeight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType$TaxonomyId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType$TaxonomyId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyWeightType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CompetencyWeightType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ConferencePaperType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ConferencePaperType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ContactMethodLocationType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ContactMethodLocationType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ContactMethodType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ContactMethodType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ContactMethodUseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ContactMethodUseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ContactTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ContactTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CopyrightType$CopyrightDates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CopyrightType$CopyrightDates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CopyrightType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CopyrightType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CredentialType$EffectiveDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CredentialType$EffectiveDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CredentialType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/CredentialType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DatesOfAttendanceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DatesOfAttendanceType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DatesOfServiceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DatesOfServiceType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DegreeCodeTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DegreeCodeTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DegreeTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DegreeTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DeprecatedDatesOfAttendanceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DeprecatedDatesOfAttendanceType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DistributionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DistributionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DunsNumberDataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/DunsNumberDataType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EduDegreeType$DegreeName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EduDegreeType$DegreeName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EduDegreeType$OtherHonors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EduDegreeType$OtherHonors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EduDegreeType$UserArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EduDegreeType$UserArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EduDegreeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EduDegreeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EduMeasureType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EduMeasureType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EducationMeasureType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EducationMeasureType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EducationalMeasureType$ClassRank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EducationalMeasureType$ClassRank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EducationalMeasureType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EducationalMeasureType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmpContactInfoType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmpContactInfoType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmployerOrgDataType$UserArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmployerOrgDataType$UserArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmployerOrgDataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmployerOrgDataType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmployerOrgTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmployerOrgTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmploymentLocationSummaryType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmploymentLocationSummaryType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmploymentQuestionAnswerPairType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EmploymentQuestionAnswerPairType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EntityIdType$IdValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EntityIdType$IdValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EntityIdType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EntityIdType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EventTypeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/EventTypeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/FlexibleDatesType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/FlexibleDatesType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/GraduatingDegreeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/GraduatingDegreeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/InternetDomainNameType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/InternetDomainNameType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/IntervalTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/IntervalTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/IssuingAuthorityType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/IssuingAuthorityType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/JobLevelInfoType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/JobLevelInfoType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/MeasureValueType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/MeasureValueType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/MilitaryHistoryType$ServiceDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/MilitaryHistoryType$ServiceDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/MilitaryHistoryType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/MilitaryHistoryType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/MobileTelcomNumberType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/MobileTelcomNumberType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/NonXMLResumeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/NonXMLResumeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/NotApplicableLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/NotApplicableLiteral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/NotKnownLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/NotKnownLiteral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/NumericValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/NumericValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/OccupationalCategoryType$TaxonomyName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/OccupationalCategoryType$TaxonomyName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/OccupationalCategoryType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/OccupationalCategoryType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/OrgTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/OrgTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/OrganizationTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/OrganizationTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/OtherPublicationType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/OtherPublicationType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PatentDescriptionType$PatentDetail$IssuingAuthority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PatentDescriptionType$PatentDetail$IssuingAuthority.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PatentDescriptionType$PatentDetail$PatentMilestone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PatentDescriptionType$PatentDetail$PatentMilestone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PatentDescriptionType$PatentDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PatentDescriptionType$PatentDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PatentDescriptionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PatentDescriptionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PatentStatusTypeTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PatentStatusTypeTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType$Affix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType$Affix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType$AlternateScript$Affix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType$AlternateScript$Affix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType$AlternateScript$FamilyName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType$AlternateScript$FamilyName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType$AlternateScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType$AlternateScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType$FamilyName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType$FamilyName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PersonNameType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionCompensationType$EndingCompensation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionCompensationType$EndingCompensation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionCompensationType$OtherCompensation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionCompensationType$OtherCompensation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionCompensationType$StartingCompensation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionCompensationType$StartingCompensation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionCompensationType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionCompensationType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionHistoryType$UserArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionHistoryType$UserArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionHistoryType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionHistoryType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionOrgIndustryType$IndustryCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionOrgIndustryType$IndustryCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionOrgIndustryType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionOrgIndustryType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionOrgInfoType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionOrgInfoType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionOrgNameType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionOrgNameType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PositionTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PostalAddressType$DeliveryAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PostalAddressType$DeliveryAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PostalAddressType$Recipient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PostalAddressType$Recipient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PostalAddressType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PostalAddressType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PublicationHistoryType$FormattedPublicationDescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PublicationHistoryType$FormattedPublicationDescription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PublicationOtherTypeTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PublicationOtherTypeTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PublicationTypeTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/PublicationTypeTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RankAchievedType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RankAchievedType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RatingType$NumericValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RatingType$NumericValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RatingType$StringValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RatingType$StringValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RatingType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RatingType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ReferenceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ReferenceType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RelationshipType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RelationshipType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/Resume$UserArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/Resume$UserArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/Resume.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/Resume.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ResumeItemTypeTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/ResumeItemTypeTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RoleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/RoleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SEPContactInfoType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SEPContactInfoType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolDataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolDataType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolOrInstitutionType$LocationSummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolOrInstitutionType$LocationSummary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolOrInstitutionType$OrganizationUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolOrInstitutionType$OrganizationUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolOrInstitutionType$UserArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolOrInstitutionType$UserArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolOrInstitutionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolOrInstitutionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolTypeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolTypeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SchoolTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SourceEnumType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SourceEnumType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SourceTypeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SourceTypeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SpeakingEventType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SpeakingEventType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SpeakingTypeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/SpeakingTypeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/StaffingSupportingMaterialsType$AttachmentReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/StaffingSupportingMaterialsType$AttachmentReference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/StaffingSupportingMaterialsType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/StaffingSupportingMaterialsType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/StringValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/StringValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/StructuredXMLResumeType$Qualifications.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/StructuredXMLResumeType$Qualifications.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/StructuredXMLResumeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/StructuredXMLResumeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/TelcomNumberType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/TelcomNumberType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/VerificationType$ContactInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/VerificationType$ContactInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/VerificationType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/model/sovren/VerificationType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/CallApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/CallApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/RCRestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/RCRestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/SovrenRestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/SovrenRestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/service/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64$InputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64$InputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64$OutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64$OutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/ConvertToBase64.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/ConvertToBase64.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Environment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Environment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,27 +267,27 @@
     <session id="1191277032">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="49" />
+          <entry key="JAVA" value="58" />
           <entry key="Kotlin" value="1" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1303" />
+          <entry key="java" value="1926" />
           <entry key="properties" value="59" />
           <entry key="txt" value="14" />
           <entry key="xml" value="22" />
@@ -85,16 +296,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="49" />
+          <entry key="java" value="58" />
           <entry key="kt" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="4" />
           <entry key="xsd" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1303" />
+          <entry key="JAVA" value="1926" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Properties" value="59" />
           <entry key="XML" value="128" />
@@ -138,8 +349,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="135">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,17 +361,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="98" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="98" />
+            <state relative-caret-position="360">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/CallApi.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="107" column="27" lean-forward="true" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
+            <state relative-caret-position="120">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,10 +380,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
+            <state relative-caret-position="67">
+              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/config/DataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="628">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,7 +459,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/util/Base64.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/util/ConvertToBase64.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/CallApi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/model/entity/resume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/util/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/util/OfficeProfileEnvironment.java" />
@@ -220,14 +466,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/config/EDMDataSourceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/model/entity/UFJResume.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/Dao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/util/Environment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/config/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/model/APIResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/Dao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java" />
       </list>
     </option>
@@ -237,6 +484,52 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="compiler" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="deploy" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -248,6 +541,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,113 +627,10 @@
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="rest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="rest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -476,20 +667,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SovrenRestClient">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ufj.parser.Application" />
-      <module name="RParser" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ufj.parser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Parser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ufj.parser.rest.client.Parser" />
       <module name="RParser" />
@@ -503,43 +681,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RCRestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ufj.parser.rest.client.RCRestClient" />
+    <configuration name="Parser" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.ufj.parser.Application" />
       <module name="RParser" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ufj.parser.rest.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SovrenRestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ufj.parser.rest.client.SovrenRestClient" />
-      <module name="RParser" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ufj.parser.rest.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Parser" />
-      <item itemvalue="Application.SovrenRestClient" />
-      <item itemvalue="Application.RCRestClient" />
-      <item itemvalue="Application.Application" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SovrenRestClient" />
-        <item itemvalue="Application.RCRestClient" />
-        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Parser" />
         <item itemvalue="Application.Parser" />
       </list>
     </recent_temporary>
@@ -581,14 +732,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.29399142" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3018598" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32340425" />
@@ -600,13 +750,13 @@
       <window_info anchor="bottom" id="Spring" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.16170213" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.38297874" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.45531914" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.329718" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.19599427" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -621,7 +771,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.2553648" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3018598" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32340425" />
@@ -629,11 +779,11 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.16170213" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.29929078" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.45531914" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -763,13 +913,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/entity/resume.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="46" column="56" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/util/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3300">
@@ -802,13 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/entity/UFJResume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -827,87 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/config/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -915,18 +970,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/CallApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="107" column="27" lean-forward="true" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="109" column="47" lean-forward="true" selection-start-line="109" selection-start-column="47" selection-end-line="109" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -935,15 +985,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="98" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="98" />
+        <state relative-caret-position="360">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/config/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="46" column="56" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
+        <state relative-caret-position="120">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
         </state>
       </provider>
     </entry>
