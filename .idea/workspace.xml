@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fdceba9-26a9-41bd-b4db-b6388bc1f279" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/rc/RCRestClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HAB_Orig.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HAB_S1.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HAB_S1.pages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HAB_S2.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JH.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JP.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sample.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sample1.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/config/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/ParserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/CallApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/sovren/SovrenRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/rc/ConsumeRC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/ParserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/BestFitTaxonomyType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/BestFitTaxonomyType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/BulletsType$Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/BulletsType$Bullet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/CultureType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sovren/hr_xml/_2006_02_28/CultureType.class" afterDir="false" />
@@ -209,7 +207,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/CallApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/CallApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/Parser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/RCRestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/RCRestClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/SovrenRestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/rest/client/SovrenRestClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/service/Service.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64$InputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64$InputStream.class" afterDir="false" />
@@ -217,7 +214,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Base64.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/ConvertToBase64.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/ConvertToBase64.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Environment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufj/parser/util/Environment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -343,35 +339,71 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="560667076">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="20" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="20" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="784" />
+          <entry key="properties" value="33" />
+          <entry key="xml" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="784" />
+          <entry key="Properties" value="33" />
+          <entry key="XML" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/sovren/SovrenRestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="484">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/service/rc/RCRestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="374">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/service/rc/ConsumeRC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="528">
+              <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -380,45 +412,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/ParserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+            <state relative-caret-position="338">
+              <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/service/ParserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="374">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/config/DataSourceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -462,20 +472,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/model/entity/resume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/util/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/util/OfficeProfileEnvironment.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/config/EDMDataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/model/entity/UFJResume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/util/Environment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/config/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/model/APIResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/Dao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/Parser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/config/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/ConsumeRC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/rc/Parser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/sovren/SovrenRestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/rc/RCRestClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/rc/RCRestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/rc/ConsumeRC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/service/ParserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/ParserController.java" />
       </list>
     </option>
   </component>
@@ -495,53 +514,122 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="compiler" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="deploy" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RParser" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ufj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="parser" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -602,50 +690,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RParser" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="RParser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="conf&#9;PSI&#9;JAVA://org.lm.edm.api.office.config.EDMDataSourceConfig&#10;OrganizationName&#9;PSI&#9;JAVA://com.ufj.parser.model.sovren.PositionOrgNameType#organizationName" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540178182323" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542387355964" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\develop\UPJ\RParser\src\main\xsd" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ufj.parser.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -653,6 +711,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/ufj/parser/util" />
       <recent name="$PROJECT_DIR$/src/main/java/com/ufj/parser/model/rchilli" />
       <recent name="$PROJECT_DIR$/src/main/xsd/updated" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\develop\UPJ\RParser\src\main\xsd" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -667,20 +728,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Parser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ufj.parser.rest.client.Parser" />
-      <module name="RParser" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ufj.parser.rest.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RParser">
     <configuration name="Parser" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.ufj.parser.Application" />
       <module name="RParser" />
@@ -688,10 +736,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RParser" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ufj.parser.Application" />
+      <module name="RParser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ufj.parser.rest.sovren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="RParser" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ufj.parser.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Parser" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.RParser" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Parser" />
-        <item itemvalue="Application.Parser" />
+        <item itemvalue="Application.RParser" />
+        <item itemvalue="Application.RParser" />
       </list>
     </recent_temporary>
   </component>
@@ -707,6 +780,9 @@
       <updated>1537545355337</updated>
       <workItem from="1537545359865" duration="5143000" />
       <workItem from="1540177355348" duration="827000" />
+      <workItem from="1541826135278" duration="1113000" />
+      <workItem from="1542030727318" duration="1195000" />
+      <workItem from="1542377912257" duration="6391000" />
     </task>
     <task id="LOCAL-00001" summary="RC integration">
       <created>1538452504837</created>
@@ -719,7 +795,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5970000" />
+    <option name="totallyTimeSpent" value="14669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,73 +807,44 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Web" side_tool="true" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3018598" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2489339" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32340425" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Spring" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.16170213" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.45531914" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.329718" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.19599427" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32340425" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" visible="true" weight="0.15184382" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.26030368" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.329718" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" visible="true" weight="0.04904051" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3018598" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32340425" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Spring" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.16170213" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.45531914" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.329718" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -945,20 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/entity/UFJResume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="791" column="18" selection-start-line="791" selection-start-column="18" selection-end-line="791" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/rchilli/ResumeParseFields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/APIResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -973,57 +1006,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/CallApi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="109" column="47" lean-forward="true" selection-start-line="109" selection-start-column="47" selection-end-line="109" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/RCRestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/config/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/service/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1032,52 +1025,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/dao/impl/DaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="46" column="56" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        <state relative-caret-position="347">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/rchilli/ResumeParseFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2442">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/config/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/client/SovrenRestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/sovren/SovrenRestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/service/rc/RCRestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/service/rc/ConsumeRC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/service/ParserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/model/entity/UFJResume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ufj/parser/rest/ParserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
         </state>
       </provider>
     </entry>

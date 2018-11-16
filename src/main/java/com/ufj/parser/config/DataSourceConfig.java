@@ -23,12 +23,12 @@ public class DataSourceConfig {
     public DataSource UFJDataSource() {
 
         DriverManagerDataSource edm = new DriverManagerDataSource();
-        edm.setUrl(environment.getPropertyValue("spring.ds.edm.url"));
-        edm.setDriverClassName(environment.getPropertyValue("spring.ds.edm.driver.class.name"));
-        edm.setUsername(environment.getPropertyValue("spring.ds.edm.username"));
-        edm.setPassword(environment.getPropertyValue("spring.ds.edm.password"));
-        logger.info("Datasource url:: " + environment.getPropertyValue("spring.ds.edm.url"));
-        logger.info("Datasource user :: " + environment.getPropertyValue("spring.ds.edm.username"));
+        edm.setUrl(environment.getPropertyValue("spring.ds.ufj.url"));
+        edm.setDriverClassName(environment.getPropertyValue("spring.ds.ufj.driver.class.name"));
+        edm.setUsername(environment.getPropertyValue("spring.ds.ufj.username"));
+        edm.setPassword(environment.getPropertyValue("spring.ds.ufj.password"));
+        logger.info("Datasource url:: " + environment.getPropertyValue("spring.ds.ufj.url"));
+        logger.info("Datasource user :: " + environment.getPropertyValue("spring.ds.ufj.username"));
 
         return edm;
     }
