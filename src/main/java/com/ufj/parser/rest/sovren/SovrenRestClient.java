@@ -16,7 +16,6 @@ public class SovrenRestClient {
             // Specify filename and compute path
             Path filePath = Paths.get("C:/develop/RParser/src/main/resources/HAB_S1.doc");
 
-
             // Open file, encode contents to base64, then decode to UTF-8
             byte[] encoded = Base64.getEncoder().encode(Files.readAllBytes(filePath));
             String base64Str = new String(encoded, "UTF-8");

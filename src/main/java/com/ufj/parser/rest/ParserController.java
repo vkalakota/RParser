@@ -34,20 +34,33 @@ public class ParserController {
 
     }
 
+//    @RequestMapping(value = "/parserc/{filePath}", method = RequestMethod.GET, produces = "application/json")
+//    @ResponseBody
+//    public APIResponse parseRCResume(@PathVariable(value = "filePath") String filePath) {
+//        System.out.println(" in controller");
+//
+//        ResumeParseFields objRCResume = service.parse(filePath);
+//
+//        UFJResume resume = map(objRCResume);
+//
+//        service.save(resume);
+//        return createResponse("Hello", "200", "Accepted");
+//        //createResponse("Your request has been accepted", Constants.STATUS_ACCEPTED, Constants.STATUS_ACCEPTED_INFO);
+//
+//    }
+
     @RequestMapping(value = "/parse/{filePath}", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
-    public APIResponse parseResume(@PathVariable(value = "filePath") String filePath) {
-        System.out.println(" in controller");
+    public APIResponse parseSovrenResume(@PathVariable(value = "filePath") String filePath) {
+        System.out.println(" in Sovren controller");
 
-        ResumeParseFields objRCResume = service.parse(filePath);
+        StringBuffer parserResponse = service.parse(filePath);
+//        ResumeParseFields objRCResume = service.parse(filePath);
+//        UFJResume resume = map(objRCResume);
+//        service.save(resume);
 
-
-        UFJResume resume = map(objRCResume);
-
-        service.save(resume);
         return createResponse("Hello", "200", "Accepted");
         //createResponse("Your request has been accepted", Constants.STATUS_ACCEPTED, Constants.STATUS_ACCEPTED_INFO);
-
     }
 
     private UFJResume map(ResumeParseFields objRcResume) {
