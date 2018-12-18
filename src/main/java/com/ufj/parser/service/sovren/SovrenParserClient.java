@@ -18,7 +18,8 @@ public class SovrenParserClient {
         StringBuffer response = new StringBuffer();
         try{
         // Specify filename and compute path
-        Path filePath = Paths.get("C:/develop/RParser/src/main/resources/HAB_S1.doc");
+        //Path filePath = Paths.get("C:/develop/RParser/src/main/resources/HAB_S1.doc");
+            Path filePath = Paths.get("/Users/vasanth/develop/RParser/src/main/resources/HAB_S1.doc");
 
         // Open file, encode contents to base64, then decode to UTF-8
         byte[] encoded = Base64.getEncoder().encode(Files.readAllBytes(filePath));

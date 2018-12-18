@@ -34,32 +34,16 @@ public class ParserController {
 
     }
 
-//    @RequestMapping(value = "/parserc/{filePath}", method = RequestMethod.GET, produces = "application/json")
-//    @ResponseBody
-//    public APIResponse parseRCResume(@PathVariable(value = "filePath") String filePath) {
-//        System.out.println(" in controller");
-//
-//        ResumeParseFields objRCResume = service.parse(filePath);
-//
-//        UFJResume resume = map(objRCResume);
-//
-//        service.save(resume);
-//        return createResponse("Hello", "200", "Accepted");
-//        //createResponse("Your request has been accepted", Constants.STATUS_ACCEPTED, Constants.STATUS_ACCEPTED_INFO);
-//
-//    }
-
     @RequestMapping(value = "/parse/{filePath}", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     public APIResponse parseSovrenResume(@PathVariable(value = "filePath") String filePath) {
-        System.out.println(" in Sovren controller");
 
         StringBuffer parserResponse = service.parse(filePath);
 //        ResumeParseFields objRCResume = service.parse(filePath);
 //        UFJResume resume = map(objRCResume);
 //        service.save(resume);
 
-        return createResponse("Hello", "200", "Accepted");
+        return createResponse(parserResponse.toString(), "200", "Accepted");
         //createResponse("Your request has been accepted", Constants.STATUS_ACCEPTED, Constants.STATUS_ACCEPTED_INFO);
     }
 
@@ -70,21 +54,6 @@ public class ParserController {
 
         return ufjResume;
     }
-
-//    @RequestMapping(value = "/parse/{filePath}", method = RequestMethod.POST, produces = "application/json")
-//    @ResponseBody
-//    public APIResponse parseResume(@PathVariable(value = "filePath") String filePath) {
-//        System.out.println(" in controller");
-//
-//        service.parse(filePath);
-//        UFJResume resume = new UFJResume();
-//        resume.setResumeId(1);
-//
-//        service.save(resume);
-//        return createResponse("Hello", "200", "Accepted");
-//        //createResponse("Your request has been accepted", Constants.STATUS_ACCEPTED, Constants.STATUS_ACCEPTED_INFO);
-//
-//    }
 
     private APIResponse createResponse(String response, String status, String statusInfo) {
         APIResponse resp = new APIResponse();

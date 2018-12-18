@@ -6,11 +6,9 @@ import com.ufj.parser.util.Environment;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
 
 @Repository
 @Qualifier("Dao")
@@ -21,17 +19,15 @@ public class DaoImpl implements Dao {
     @Autowired
     @Qualifier("jdbcUFJ")
     private JdbcTemplate ufjJdbcTemplate;
-//    @Autowired
-//    Environment environment;
 
-    public void save(UFJResume resume){
+    public void save(UFJResume resume) {
         System.out.println(" in dao save ");
 
         String sql = "INSERT INTO resume " +
                 "(resumeId) VALUES (?)";
 
 
-        ufjJdbcTemplate.update(sql, new Object[] { resume.getResumeId()
+        ufjJdbcTemplate.update(sql, new Object[]{resume.getResumeId()
         });
 
     }
@@ -40,23 +36,10 @@ public class DaoImpl implements Dao {
         System.out.println(" in dao save ");
 
         String sql = "INSERT INTO resume_details " +
-                "(resume_id, resume_filename, parser_name, parser_output) VALUES (?, ?, ?, ?)";
+                "(resume_filename, parser_name, parser_output) VALUES (?, ?, ?)";
+        System.out.println(" in dao values:: " + vendor);
 
+        ufjJdbcTemplate.update(sql, new Object[]{"HAB_S1.doc", vendor, resume});
 
-        ufjJdbcTemplate.update(sql, new Object[]{ 1, null, "sovren", resume });
     }
-//
-//    public void insert(Customer customer){
-//
-//        String sql = "INSERT INTO CUSTOMER " +
-//                "(CUST_ID, NAME, AGE) VALUES (?, ?, ?)";
-//
-//        jdbcTemplate = new JdbcTemplate(dataSource);
-//
-//        jdbcTemplate.update(sql, new Object[] { customer.getCustId(),
-//                customer.getName(),customer.getAge()
-//        });
-//
-//    }
-
 }
