@@ -1,5 +1,9 @@
 package com.ufj.parser.service.sovren;
 
+import com.ufj.parser.rest.ParserController;
+import com.ufj.parser.util.Environment;
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.*;
@@ -13,20 +17,25 @@ import java.util.Base64;
 @Service
 public class SovrenParserClient {
 
-    public StringBuffer consumeService(String strFilePath){
+    private static final Logger logger = Logger.getLogger(SovrenParserClient.class.getName());
+
+    @Autowired
+    private Environment environment;
+
+    public StringBuffer consumeService(String fileName){
 
         StringBuffer response = new StringBuffer();
         try{
         // Specify filename and compute path
         //Path filePath = Paths.get("C:/develop/RParser/src/main/resources/HAB_S1.doc");
-            Path filePath = Paths.get("/Users/vasanth/develop/RParser/src/main/resources/HAB_S1.doc");
+        Path filePath = Paths.get(environment.getPropertyValue("resume.path")+"/"+fileName);
 
         // Open file, encode contents to base64, then decode to UTF-8
         byte[] encoded = Base64.getEncoder().encode(Files.readAllBytes(filePath));
         String base64Str = new String(encoded, "UTF-8");
 
         // Create connection object, based on the given url-name
-        URL url = new URL("https://rest.resumeparsing.com/v9/parser/resume");
+        URL url = new URL(environment.getPropertyValue("sovren.resume.url"));
         HttpURLConnection connection;
 
         connection = (HttpURLConnection) url.openConnection();
@@ -42,8 +51,8 @@ public class SovrenParserClient {
         connection.setRequestProperty("accept", "application/json");
 
         // Specify your credentials
-        connection.setRequestProperty("Sovren-AccountId", "55433887");
-        connection.setRequestProperty("Sovren-ServiceKey", "6NzvycrJQr2iqOma7fwoikEDMcD2NBRRDQniRBvE");
+        connection.setRequestProperty("Sovren-AccountId", environment.getPropertyValue("sovren.accountid"));
+        connection.setRequestProperty("Sovren-ServiceKey", environment.getPropertyValue("sovren.servicekey"));
 
         // Construct payload in JSON-format
         // (This is a very primitive way to do so, as not to have any external dependencies
@@ -68,8 +77,8 @@ public class SovrenParserClient {
         in.close();
 
         // (Optional) Output response details
-        System.out.println(responseCode);
-        System.out.println(response.toString());
+      logger.info("Response Code:: "+responseCode);
+      logger.info("Parsed Resume Response value from Sovren ::"+response.toString());
 
     } catch (IOException e) {
         e.printStackTrace();

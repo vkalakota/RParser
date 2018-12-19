@@ -24,33 +24,28 @@ public class ParserController {
     @RequestMapping(value = "/invoke", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     public APIResponse execute() {
-        System.out.println(" in controller");
+        logger.info(" in invoke controller");
         UFJResume resume = new UFJResume();
         resume.setResumeId(1);
 
         service.save(resume);
-        return createResponse("Hello", "200", "Accepted");
+        return createResponse("Request has been accepted", "200", "Accepted");
         //createResponse("Your request has been accepted", Constants.STATUS_ACCEPTED, Constants.STATUS_ACCEPTED_INFO);
 
     }
 
-    @RequestMapping(value = "/parse/{filePath}", method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = "/parse/{resumeFileName}", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
-    public APIResponse parseSovrenResume(@PathVariable(value = "filePath") String filePath) {
+    public APIResponse parseSovrenResume(@PathVariable(value = "resumeFileName") String fileName) {
 
-        StringBuffer parserResponse = service.parse(filePath);
-//        ResumeParseFields objRCResume = service.parse(filePath);
-//        UFJResume resume = map(objRCResume);
-//        service.save(resume);
+        StringBuffer parserResponse = service.parse(fileName);
 
         return createResponse(parserResponse.toString(), "200", "Accepted");
-        //createResponse("Your request has been accepted", Constants.STATUS_ACCEPTED, Constants.STATUS_ACCEPTED_INFO);
     }
 
     private UFJResume map(ResumeParseFields objRcResume) {
         UFJResume ufjResume = new UFJResume();
         ufjResume.setResumeId(1);
-
 
         return ufjResume;
     }

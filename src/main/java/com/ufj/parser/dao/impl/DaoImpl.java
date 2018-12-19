@@ -26,20 +26,19 @@ public class DaoImpl implements Dao {
         String sql = "INSERT INTO resume " +
                 "(resumeId) VALUES (?)";
 
-
         ufjJdbcTemplate.update(sql, new Object[]{resume.getResumeId()
         });
 
     }
 
-    public void save(String resume, String vendor) {
+    public void save(String resumeFileName, String parsedResume, String vendor) {
         System.out.println(" in dao save ");
 
         String sql = "INSERT INTO resume_details " +
                 "(resume_filename, parser_name, parser_output) VALUES (?, ?, ?)";
         System.out.println(" in dao values:: " + vendor);
 
-        ufjJdbcTemplate.update(sql, new Object[]{"HAB_S1.doc", vendor, resume});
+        ufjJdbcTemplate.update(sql, new Object[]{resumeFileName, vendor, parsedResume});
 
     }
 }
