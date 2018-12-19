@@ -1,6 +1,5 @@
 package com.ufj.parser.service.sovren;
 
-import com.ufj.parser.rest.ParserController;
 import com.ufj.parser.util.Environment;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +27,7 @@ public class SovrenParserClient {
         try{
         // Specify filename and compute path
         //Path filePath = Paths.get("C:/develop/RParser/src/main/resources/HAB_S1.doc");
-        Path filePath = Paths.get(environment.getPropertyValue("resume.path")+"/"+fileName);
+        Path filePath = Paths.get(environment.getPropertyValue("resume.location")+"/"+fileName);
 
         // Open file, encode contents to base64, then decode to UTF-8
         byte[] encoded = Base64.getEncoder().encode(Files.readAllBytes(filePath));
@@ -81,6 +80,7 @@ public class SovrenParserClient {
       logger.info("Parsed Resume Response value from Sovren ::"+response.toString());
 
     } catch (IOException e) {
+            logger.error("Exception consuming Sovren parser ::",e);
         e.printStackTrace();
     }
         return response;

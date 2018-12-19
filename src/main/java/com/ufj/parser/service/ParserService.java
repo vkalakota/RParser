@@ -39,6 +39,14 @@ public class ParserService {
         return response;
     }
 
+    public StringBuffer jaxParse(String fileName) {
+
+        StringBuffer response = sovrenParseClient.consumeService(fileName);
+        save(fileName, response.toString(), environment.getPropertyValue("parser.vendor.id"));
+
+        return response;
+    }
+
 
 
 }

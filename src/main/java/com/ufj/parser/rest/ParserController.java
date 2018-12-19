@@ -43,6 +43,15 @@ public class ParserController {
         return createResponse(parserResponse.toString(), "200", "Accepted");
     }
 
+    @RequestMapping(value = "/jaxparse/{resumeFileName}", method = RequestMethod.GET, produces = "application/json")
+    @ResponseBody
+    public APIResponse jaxParseSovrenResume(@PathVariable(value = "resumeFileName") String fileName) {
+
+        StringBuffer parserResponse = service.parse(fileName);
+
+        return createResponse(parserResponse.toString(), "200", "Accepted");
+    }
+
     private UFJResume map(ResumeParseFields objRcResume) {
         UFJResume ufjResume = new UFJResume();
         ufjResume.setResumeId(1);
