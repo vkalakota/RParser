@@ -26,12 +26,9 @@ public class ParserController {
     public APIResponse execute() {
         logger.info(" in invoke controller");
         UFJResume resume = new UFJResume();
-        resume.setResumeId(1);
-
-        service.save(resume);
-        return createResponse("Request has been accepted", "200", "Accepted");
-        //createResponse("Your request has been accepted", Constants.STATUS_ACCEPTED, Constants.STATUS_ACCEPTED_INFO);
-
+        //resume.setResumeId(1);
+        //service.save(resume);
+        return createResponse("Resume Parser API - Request has been accepted", "200", "Accepted");
     }
 
     @RequestMapping(value = "/parse/{resumeFileName}", method = RequestMethod.GET, produces = "application/json")

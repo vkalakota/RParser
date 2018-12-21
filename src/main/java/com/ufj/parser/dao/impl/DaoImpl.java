@@ -2,7 +2,6 @@ package com.ufj.parser.dao.impl;
 
 import com.ufj.parser.dao.Dao;
 import com.ufj.parser.model.entity.UFJResume;
-import com.ufj.parser.util.Environment;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
